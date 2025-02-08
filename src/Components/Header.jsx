@@ -22,8 +22,10 @@ function Header() {
                 </Link>
                 <nav className='flex justify-end gap-4'>
                     <ul className='hidden lg:flex gap-5 '>
+                    <Link className='font-bold uppercase hover:text-blue-700 transition duration-300 hover:scale-105' to={'/'}>Home</Link>
                         {cat.slice(1,7).map((a)=>(
                             <li key={a.id}className=' font-bold uppercase hover:text-blue-700 transition duration-300 hover:scale-105'>
+                             
                             <Link to={`/details/${a.id}/${a.slug}`}>
                                 {a.slug}</Link></li>
                         ))}
