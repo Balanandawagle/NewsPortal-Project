@@ -15,12 +15,23 @@
  
 3. **Run the development server**:
     ```sh
-    npm start
+    npm run dev
     ```
  
-4. **Build the project for production**:
+4. **Install Tailwind Css**:
     ```sh
-    npm run build
+    npm install -D tailwindcss@3 postcss autoprefixer
+    npx tailwindcss init -p
+    ```
+
+5.  **Install Routes**:
+    ```sh
+     npm install react-router-dom@6
+    ```
+    
+6. **Install React Icon**:
+      ```sh
+       npm install react-icons--save
     ```
  
 ## Requirements
