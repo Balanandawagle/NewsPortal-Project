@@ -1,4 +1,4 @@
-# React Project
+# React NewsPortal Project
  
 ## Installation
  
