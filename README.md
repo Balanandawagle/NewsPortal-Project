@@ -1,11 +1,11 @@
-# React NewsPortal Project
+# React(Vite) NewsPortal Project
  
 ## Installation
  
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/your-username/your-repo.git
-    cd your-repo
+    git clone https://github.com/Balanandawagle/NewsPortal-Project
+    cd NewsPortal-Project
     ```
  
 2. **Install dependencies**:
